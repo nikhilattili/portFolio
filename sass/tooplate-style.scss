@@ -422,7 +422,7 @@ b, strong {
 			&:before {
 				background: none;
 				padding: 0;
-				display: block;
+				display: none;
 				position: absolute;
 				top: 50%;
 				transform: translate(0, -50%); 
@@ -545,7 +545,7 @@ b, strong {
 	.owl-theme {
 		.owl-dots {
 			position: relative;
-			bottom: 50px;
+			top: 50px;
 		}
 	}
 }
